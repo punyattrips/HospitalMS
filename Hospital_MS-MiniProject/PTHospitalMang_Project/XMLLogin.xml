@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+	<Ad>
+		<ImageUrl>~\Imgs\Login_AutoPic\MedicalImg1.png</ImageUrl>
+		<ALternateText>Hospital_imgs</ALternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\Imgs\Login_AutoPic\MedicalImg2.png</ImageUrl>
+		<ALternateText>Hospital_imgs</ALternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\Imgs\Login_AutoPic\MedicalImg3.png</ImageUrl>
+		<ALternateText>Hospital_imgs</ALternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\Imgs\Login_AutoPic\MedicalImg4.jpg</ImageUrl>
+		<ALternateText>Hospital_imgs</ALternateText>
+	</Ad>
+</Advertisements>

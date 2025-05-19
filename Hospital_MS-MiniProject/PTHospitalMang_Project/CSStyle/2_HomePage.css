@@ -1,0 +1,75 @@
+﻿/*------------------ Home page ------------------*/
+body {
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: #6ECCAF;
+    box-shadow: 2px 2px 12px rgba(122, 229, 243, 0.555);
+    padding: 0px 3% 0px 5%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 10px;
+    padding: 10px;
+    color: #1C315E;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    background-color: #227C70;
+    border-radius: 5px;
+    color: #E6E2C3;
+    box-shadow: 0 0 5px #227C70,0 0 25px #227C70,0 0 50px #227C70,0 0 200px #227C70;
+    transition: all ease 0.5s;
+}
+
+.portf {
+    color: #CBEDD5;
+    transition: all ease 0.2s;
+}
+
+    .portf:hover {
+        color: #2B3A55;
+    }
+
+.hosp-logo {
+    width: 30px;
+    margin-top: 1px;
+    padding-right: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 110px;
+    color: #181D31;
+    font-size: 22px;
+    font-weight: bolder;
+}

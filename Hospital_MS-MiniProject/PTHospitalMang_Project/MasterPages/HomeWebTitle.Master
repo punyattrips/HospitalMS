@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeWebTitle.master.cs" Inherits="PTHospitalMang_Project.MasterPages.HomeWebTitle" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!--------------------- Title Page --------------------->
+    <title>| Handy HealthCare |</title>
+
+    <!--------------------- CSS Document --------------------->
+    <link rel="stylesheet" href="~/CSStyle/HomeWebTitle.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--------------------- Home Title at the top of the page --------------------->
+            <center>
+                <h1 class="ttl_hd"> Handy HealthCare </h1>
+            </center>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <!--------------------- Details at the bottom of the page --------------------->
+            <center>
+                <h6 class="btm_details">
+                    PUNYAT TRIPATHI
+                    <br /> Student, BSc Computer Science (HI)
+                    <br /> National Institute of Speech and Hearing
+                    <br /> 2023 for Semester 7th [@copyright legally]
+                </h6>
+            </center>
+        </div>
+    </form>
+</body>
+</html>

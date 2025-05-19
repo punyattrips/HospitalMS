@@ -1,0 +1,24 @@
+﻿/*------------------ Master Page ------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    background: linear-gradient(120deg, #00FFD1, #293462);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#form1 {
+    height: 640px;
+}
+
+.ttl_hd {
+    display: flex;
+    font-size: 50px;
+    font-family: 'Bahnschrift SemiBold', cursive;
+    text-decoration: underline;
+    justify-content: center;
+    align-content: center;
+    margin: auto auto 15px auto;
+    padding: 0;
+}

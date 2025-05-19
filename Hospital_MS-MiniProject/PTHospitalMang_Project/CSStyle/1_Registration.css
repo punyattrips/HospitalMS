@@ -1,0 +1,93 @@
+﻿/*------------------ Registration page ------------------*/
+body {
+}
+
+.container {
+    width: 25%;
+    height: 580px;
+}
+
+.contact-box {
+    background: #e7e7de;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.contact-box:hover {
+    transform: scale(1.04);
+}
+
+.container h1 {
+    color: #011322;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.input-row {
+    padding: 20px;
+    width: 320px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 333px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.input-row input {
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid #011322;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: #e7e7de;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.input-row label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    color: #011322;
+}
+
+.btnSignIn {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #02c2cf;
+    width: 178px;
+    color: #e7e7de;
+    height: 48px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px 0px rgba(28, 0, 181, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #011322;
+    color: #e7e7de;
+    box-shadow: 0 5px 15px 0px rgba(7, 0, 41, 0.3);
+}
+
+.signin_link {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #666666;
+    height: 18px;
+    text-decoration: none;
+}
+
+.signin_link a {
+    margin: 5px;
+    color: #2691d9;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
